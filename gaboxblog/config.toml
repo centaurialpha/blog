@@ -38,7 +38,7 @@ disqusShortname = "centaurialpha"
   hidecolorschemetoggle = false
 
   customCSS = []
-  customSCSS = []
+  customSCSS = ["scss/_variables.scss"]
   customJS = []
 
 [taxonomies]

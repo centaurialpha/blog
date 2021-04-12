@@ -1,6 +1,6 @@
 body.colorscheme-dark {
   color: #dadada;
-  background-color: #212121; }
+  background-color: #131313; }
   body.colorscheme-dark a {
     color: #42a5f5; }
   body.colorscheme-dark h1,
@@ -52,7 +52,7 @@ body.colorscheme-dark {
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
     color: #dadada;
-    background-color: #212121; }
+    background-color: #131313; }
     body.colorscheme-auto a {
       color: #42a5f5; }
     body.colorscheme-auto h1,
@@ -122,11 +122,11 @@ body.colorscheme-dark .content .centered .about ul li a {
       color: #42a5f5; } }
 
 body.colorscheme-dark .notice .notice-title {
-  border-bottom: 1px solid #212121; }
+  border-bottom: 1px solid #131313; }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto .notice .notice-title {
-    border-bottom: 1px solid #212121; } }
+    border-bottom: 1px solid #131313; } }
 
 body.colorscheme-dark .navigation a,
 body.colorscheme-dark .navigation span {
@@ -137,7 +137,7 @@ body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:f
 
 @media only screen and (max-width: 768px) {
   body.colorscheme-dark .navigation .navigation-list {
-    background-color: #212121;
+    background-color: #131313;
     border-top: solid 2px #424242;
     border-bottom: solid 2px #424242; } }
 
@@ -166,7 +166,7 @@ body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .n
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
   body.colorscheme-auto .navigation .navigation-list {
-    background-color: #212121;
+    background-color: #131313;
     border-top: solid 2px #424242;
     border-bottom: solid 2px #424242; } }
 
