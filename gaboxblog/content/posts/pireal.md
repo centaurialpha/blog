@@ -47,3 +47,7 @@ Para una lista detallada, se puede ver el [changelog](https://github.com/centaur
 ## Descargas
 - Windows installer: [pireal 3 1 0 win installer](https://github.com/centaurialpha/pireal/releases/download/v3.1.0/pireal-3.1.0-win-installer.exe)
 - Debian/Ubuntu package: [pireal_3 1 0_all deb](https://github.com/centaurialpha/pireal/releases/download/v3.1.0/pireal_3.1.0_all.deb)
+
+## `IMPORTANTE`
+Ya que se ha cambiado el instalador, es necesario desinstalar cualquier versión anterior
+de Pireal.
