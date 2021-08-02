@@ -9,7 +9,7 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-pygmentsstyle = "bw"
+pygmentsstyle = "dracula"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
