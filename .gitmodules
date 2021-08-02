@@ -2,3 +2,6 @@
 	path = gaboxblog/public
 	url = git@github.com:centaurialpha/centaurialpha.github.io.git
 	branch = main
+[submodule "gaboxblog/themes/terminal"]
+	path = gaboxblog/themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git

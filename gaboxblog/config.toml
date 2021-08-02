@@ -1,75 +1,143 @@
 baseURL = "https://centaurialpha.github.io"
 languageCode = "en-us"
 title = "gabo's blog"
-theme ="hugo-coder"
-
-disablePathToLower = true
-
-defaultcontentlanguage = "en"
-
-paginate = 20
-
-pygmentsstyle = "dracula"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-disqusShortname = "centaurialpha"
+theme ="terminal"
 
 [params]
-  author = "Gabriel Acosta"
-  info = "Software Developer at Satellogic"
-  description = "Gabriel Acosta's personal website"
-  keywords = "blog,developer,personal"
-  # avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
 
-  footercontent = ""
-  hideFooter = false
-  hideCredits = true
-  hideCopyright = false
-  since = 2019
+  # show selector to switch language
+  showLanguageSelector = false
 
-  enableTwemoji = true
+  # set theme to full screen width
+  fullWidthTheme = false
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  # center theme with default width
+  centerTheme = true
 
-  customCSS = []
-  customSCSS = ["scss/_variables.scss"]
-  customJS = []
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
 
-# Social links
-[[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/centaurialpha/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/serealkiller/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/_alfacentauri/"
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
 
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "gabo's blog"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+# disablePathToLower = true
+#
+# defaultcontentlanguage = "en"
+#
+# paginate = 20
+#
+# pygmentsstyle = "dracula"
+# pygmentscodefences = true
+# pygmentscodefencesguesssyntax = true
+#
+# disqusShortname = "centaurialpha"
+#
+# [params]
+#   author = "Gabriel Acosta"
+#   info = "Software Developer at Satellogic"
+#   description = "Gabriel Acosta's personal website"
+#   keywords = "blog,developer,personal"
+#   # avatarurl = "images/avatar.jpg"
+#   #gravatar = "john.doe@example.com"
+#
+#   favicon_32 = "/img/favicon-32x32.png"
+#   favicon_16 = "/img/favicon-16x16.png"
+#
+#   footercontent = ""
+#   hideFooter = false
+#   hideCredits = true
+#   hideCopyright = false
+#   since = 2019
+#
+#   enableTwemoji = true
+#
+#   colorScheme = "auto"
+#   hidecolorschemetoggle = false
+#
+#   customCSS = []
+#   customSCSS = ["scss/_variables.scss"]
+#   customJS = []
+#
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+#   author = "authors"
+#
+# # Social links
+# [[params.social]]
+#   name = "Github"
+#   icon = "fa fa-github fa-2x"
+#   weight = 1
+#   url = "https://github.com/centaurialpha/"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/serealkiller/"
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "fa fa-twitter fa-2x"
+#   weight = 3
+#   url = "https://twitter.com/_alfacentauri/"
+#
+# # Menu links
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
